@@ -139,7 +139,7 @@ void end_of_field_callback(void * field, size_t field_size, void * data) {
                   meta->current_row,
                   meta->current_col,
                   field_str,
-                  "Bad Boolean value. Valid values are strings where the first character is T/t/1 for true or F/f/0 for false."
+                  "Bad Boolean value. Valid values are strings where the first character is T/t/Y/y/1 for true or F/f/N/n/0 for false."
                 );
             }
             break;
